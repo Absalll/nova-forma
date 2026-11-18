@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nova Forma – moleraj i gletovanje Sarajevo</title>
+<meta name="description" content="Moleraj, gletovanje, brušenje i farbanje u Sarajevu i okolini. Mašinski rad, 15 godina iskustva, besplatna procjena na adresi.">
+<style>
+:root{
+  --bg:#f4f7f8;--surface:#ffffff;--ink:#15222b;--muted:#51626d;--line:#d5dee3;
+  --accent:#1a4fd6;--accent-ink:#ffffff;--viber:#6b3fb5;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#10181d;--surface:#18242b;--ink:#eef3f5;--muted:#9fb0ba;--line:#2b3b44;
+    --accent:#6c93ff;--accent-ink:#0b1220;--viber:#a483e6;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10181d;--surface:#18242b;--ink:#eef3f5;--muted:#9fb0ba;--line:#2b3b44;
+  --accent:#6c93ff;--accent-ink:#0b1220;--viber:#a483e6;color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.55 "Avenir Next","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
+  padding-bottom:84px}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+h1,h2{line-height:1.1;letter-spacing:-.02em;margin:0}
+h1{font-size:clamp(2.1rem,9vw,3.4rem);font-weight:800}
+h2{font-size:1.6rem;font-weight:800;margin-bottom:14px}
+p{margin:0 0 12px}
+
+/* hero: potez valjka preko zida */
+.hero{padding:44px 0 36px}
+.stroke{height:22px;border-radius:0 12px 12px 0;background:var(--accent);
+  width:78%;margin:0 0 26px -20px}
+.hero p.lead{font-size:1.15rem;color:var(--muted);max-width:34ch;margin:16px 0 24px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-height:52px;padding:0 22px;border-radius:12px;font-weight:700;font-size:1.05rem;
+  text-decoration:none;color:var(--accent-ink);background:var(--accent);border:2px solid transparent}
+.btn.viber{background:var(--viber);color:#fff}
+.btn:focus-visible,input:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+
+section{padding:30px 0;border-top:1px solid var(--line)}
+ul.plain{list-style:none;margin:0;padding:0}
+ul.plain li{padding:9px 0;border-bottom:1px solid var(--line)}
+ul.plain li:last-child{border-bottom:0}
+
+.prices{width:100%;border-collapse:collapse}
+.prices td{padding:12px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.prices td:last-child{text-align:right;font-weight:800;white-space:nowrap;padding-left:14px}
+.prices small{display:block;color:var(--muted)}
+
+.calc{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.row{display:grid;grid-template-columns:1fr 92px;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.row label small{display:block;color:var(--muted)}
+.row input{width:100%;min-height:46px;font:inherit;font-size:1.05rem;padding:0 10px;border-radius:10px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);text-align:right}
+.total{display:flex;justify-content:space-between;align-items:baseline;padding-top:16px;font-weight:800}
+.total output{font-size:1.9rem;color:var(--accent)}
+.note{color:var(--muted);font-size:.93rem;margin-top:12px}
+
+footer{padding:30px 0 10px;border-top:1px solid var(--line)}
+.bar{position:fixed;left:0;right:0;bottom:0;display:flex;gap:10px;padding:10px 14px;
+  padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));
+  background:var(--surface);border-top:1px solid var(--line);z-index:5}
+.bar .btn{flex:1;min-height:48px;padding:0 10px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="stroke" aria-hidden="true"></div>
+    <h1>Nova Forma</h1>
+    <p class="lead">Moleraj i gletovanje mašinskim radom. Sarajevo i okolina, 15 godina iskustva.</p>
+    <div class="btns">
+      <a class="btn" href="tel:+387671056056">Pozovi 067 1 056 056</a>
+      <a class="btn viber" href="viber://chat?number=%2B387671006724">Piši na Viber</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Šta radim</h2>
+    <ul class="plain">
+      <li>Krečenje i farbanje zidova i plafona</li>
+      <li>Gletovanje i brušenje (ručno i mašinsko)</li>
+      <li>Priprema i zaštita prostora, čišćenje nakon posla</li>
+      <li>Rigips spušteni plafoni i obloge</li>
+      <li>Fasade, fasadne obloge, termoizolacija i hidroizolacija</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Cijene rada po m²</h2>
+    <table class="prices">
+      <tr><td>Krečenje u 2 sloja</td><td>4 KM</td></tr>
+      <tr><td>Gletovanje u 2 ruke + krečenje</td><td>9 KM</td></tr>
+      <tr><td>Kompletno gletovanje + mašinsko brušenje + krečenje</td><td>12 KM</td></tr>
+      <tr><td>Rigips spušteni plafon / obloga</td><td>35 KM</td></tr>
+      <tr><td>Fasade, termoizolacija, hidroizolacija<small>cijena nakon procjene</small></td><td>po dogovoru</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Izračunaj okvirnu cijenu</h2>
+    <div class="calc">
+      <div class="row"><label for="k1">Krečenje u 2 sloja<small>4 KM po m²</small></label><input id="k1" type="number" inputmode="decimal" min="0" placeholder="m²" data-p="4"></div>
+      <div class="row"><label for="k2">Gletovanje + krečenje<small>9 KM po m²</small></label><input id="k2" type="number" inputmode="decimal" min="0" placeholder="m²" data-p="9"></div>
+      <div class="row"><label for="k3">Gletovanje + brušenje + krečenje<small>12 KM po m²</small></label><input id="k3" type="number" inputmode="decimal" min="0" placeholder="m²" data-p="12"></div>
+      <div class="row"><label for="k4">Rigips plafon / obloga<small>35 KM po m²</small></label><input id="k4" type="number" inputmode="decimal" min="0" placeholder="m²" data-p="35"></div>
+      <div class="total"><span>Okvirno, rad</span><output id="out" for="k1 k2 k3 k4">0 KM</output></div>
+      <p class="note">Prikazana je cijena rada, bez materijala. Tačnu cijenu dajem nakon besplatne procjene na adresi.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Zašto mašinski rad</h2>
+    <p>Radim s airless mašinom, mašinskim brusilicama, žirafama i usisivačem. Posao ide brže, površina je ravnija, a prašina ostaje pod kontrolom, pa stan ostaje čist.</p>
+  </section>
+
+  <footer>
+    <h2>Javi se za procjenu</h2>
+    <p>Dolazim na adresu, pogledam stanje zidova i dam cijenu bez obaveze.</p>
+    <div class="btns">
+      <a class="btn" href="tel:+387671056056">Pozovi</a>
+      <a class="btn viber" href="viber://chat?number=%2B387671006724">Viber</a>
+    </div>
+  </footer>
+</main>
+
+<nav class="bar" aria-label="Brzi kontakt">
+  <a class="btn" href="tel:+387671056056">Pozovi</a>
+  <a class="btn viber" href="viber://chat?number=%2B387671006724">Viber</a>
+</nav>
+
+<script>
+(function(){
+  var inputs=document.querySelectorAll('.row input'),out=document.getElementById('out');
+  function calc(){
+    var t=0;
+    inputs.forEach(function(i){
+      var v=parseFloat(String(i.value).replace(',','.'));
+      if(v>0)t+=v*parseFloat(i.dataset.p);
+    });
+    out.textContent=Math.round(t).toLocaleString('de-DE')+' KM';
+  }
+  inputs.forEach(function(i){i.addEventListener('input',calc)});
+})();
+</script>
+</body>
+</html>
